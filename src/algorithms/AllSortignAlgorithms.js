@@ -76,7 +76,7 @@ export function getMergeSortAnimations(array) {
     }
   }
 
-export function quickSort(array){
+export function quickSortAnimations(array){
     const animations = [];
     if (array.length <= 1) return array;
     quickSortHelper(array, 0, array.length - 1, animations)
@@ -122,7 +122,7 @@ function partition(array, left, right, animations) {
   return j;
 }
 
-export function bubbleSort(array) {
+export function bubbleSortAnimations(array) {
     const animations = [];
     const n = array.length;
   
@@ -144,8 +144,8 @@ export function bubbleSort(array) {
   
     return animations;
   }
-
-  export function heapSort(array) {
+ 
+  export function heapSortAnimations(array) {
     const animations = [];
     const n = array.length;
 

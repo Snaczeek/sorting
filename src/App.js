@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import SortingVisualizer from './SortingVisualizer/SortingVisualizer';
+import SortingVis from './components/SortingVis';
 import React, { useEffect } from 'react';
 
 
@@ -12,9 +12,9 @@ function App() {
   return (
     
     <div className="App">
-      <SortingVisualizer></SortingVisualizer>
+      <SortingVis />
       <footer>
-        <p>Created by Mateusz Filoda</p>
+        <p>Created by <a href='https://github.com/Snaczeek/sorting'>Mateusz Filoda</a></p>
       </footer>    
     </div>
   );
